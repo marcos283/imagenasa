@@ -1,0 +1,19 @@
+{
+  "name": "nasa-image-viewer",
+  "version": "1.0.0",
+  "description": "A web application to display NASA images and their descriptions, with translation and random image functionality.",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^8.2.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^2.54.0"
+  }
+}
